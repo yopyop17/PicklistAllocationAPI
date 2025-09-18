@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PickListAllocation.Data;
 
@@ -10,9 +11,11 @@ using PickListAllocation.Data;
 namespace PickListAllocation.Migrations
 {
     [DbContext(typeof(PicklistContext))]
-    partial class PicklistContextModelSnapshot : ModelSnapshot
+    [Migration("20250918055459_AddClubCode")]
+    partial class AddClubCode
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

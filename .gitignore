@@ -3,6 +3,7 @@
 ################################################################################
 
 *.v2
+*.vs/
 *.vsidx
 /PickListAllocation/obj/Debug/net9.0/rpswa.dswa.cache.json
 *.db-shm
@@ -40,3 +41,13 @@ PickListAllocation/obj/PickListAllocation.csproj.nuget.dgspec.json
 PickListAllocation/obj/Debug/net9.0/PickListAllocation.GeneratedMSBuildEditorConfig.editorconfig
 PickListAllocation/obj/PickListAllocation.csproj.nuget.g.props
 PickListAllocation/obj/project.nuget.cache
+/PickListAllocation/obj/Debug/net9.0/PickListAllocation.assets.cache
+/PickListAllocation/obj/Debug/net9.0/PickListAllocation.csproj.AssemblyReference.cache
+/PickListAllocation/obj/Debug/net9.0/PickListAllocation.GeneratedMSBuildEditorConfig.editorconfig
+/PickListAllocation/obj/PickListAllocation.csproj.nuget.dgspec.json
+/PickListAllocation/obj/PickListAllocation.csproj.nuget.g.props
+/PickListAllocation/obj/project.assets.json
+/PickListAllocation/obj/project.nuget.cache
+/PickListAllocation/bin/Debug/net9.0/PickListAllocation.deps.json
+*.json
+*.BuildWithSkipAnalyzers
