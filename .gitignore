@@ -26,3 +26,17 @@
 /PickListAllocation/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
 /PickListAllocation/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /PickListAllocation/obj/Debug/net9.0/staticwebassets.upToDateCheck.txt
+*.cache
+PickListAllocation/obj/Debug/net9.0/PickListAllocation.assets.cache
+*.cache
+*.cache
+PickListAllocation/obj/Debug/net9.0/PickListAllocation.assets.cache
+*.cache
+PickListAllocation/obj/project.assets.json
+PickListAllocation/obj/project.nuget.cache
+PickListAllocation/obj/PickListAllocation.csproj.nuget.g.props
+PickListAllocation/obj/PickListAllocation.csproj.nuget.dgspec.json
+*.cache
+PickListAllocation/obj/Debug/net9.0/PickListAllocation.GeneratedMSBuildEditorConfig.editorconfig
+PickListAllocation/obj/PickListAllocation.csproj.nuget.g.props
+PickListAllocation/obj/project.nuget.cache
