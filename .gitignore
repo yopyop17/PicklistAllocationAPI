@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.v2
+*.vsidx
+/PickListAllocation/obj/Debug/net9.0/rpswa.dswa.cache.json

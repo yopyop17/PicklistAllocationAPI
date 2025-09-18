@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nj4xMPEdn4w=",
+  "dgSpecHash": "q1SwQk/DMU4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\WMAGSIN\\Projects\\NewAllocationAPI\\PickListAllocation\\PickListAllocation\\PickListAllocation.csproj",
+  "projectFilePath": "C:\\Users\\WMAGSIN\\Projects\\NewPicklistAllocationAPI\\PicklistAllocationAPI\\PickListAllocation\\PickListAllocation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WMAGSIN\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\WMAGSIN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

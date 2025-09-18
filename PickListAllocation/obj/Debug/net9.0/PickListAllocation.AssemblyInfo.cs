@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PickListAllocation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e3f730aabe5e503048793157d987d2b20019fd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PickListAllocation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PickListAllocation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
