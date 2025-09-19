@@ -1,4 +1,32 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿function showLoading() {
+    $('#overlay').show();
+}
+function hideLoading() {
+    $('#overlay').fadeOut();
+}
 
-// Write your JavaScript code.
+const body = document.querySelector('body'),
+    sidebar = body.querySelector('nav'),
+    toggle = body.querySelector(".toggle"),
+    //searchBtn = body.querySelector(".search-box"),
+    modeSwitch = body.querySelector(".toggle-switch"),
+    abbrevation = document.querySelector(".abbr");
+modeText = body.querySelector(".mode-text");
+const removeSelectors = (sel) => document.querySelectorAll(sel).forEach(el => el.remove());
+
+toggle.addEventListener("click", () => {
+    sidebar.classList.toggle("close");
+    //removeSelectors(".abbr");  
+})
+//searchBtn.addEventListener("click", () => {
+//    sidebar.classList.remove("close");
+
+//})
+
+
+
+
+
+
+
+

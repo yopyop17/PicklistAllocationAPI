@@ -1,0 +1,103 @@
+﻿@using PickListAllocation.Controllers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Picklist</title>
+	<link href="~/lib/externalsrc/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/lib/externalsrc/css/bootstrap-icons.min.css" rel="stylesheet" />
+	<link href="~/lib/externalsrc/css/boxicons.min.css" rel="stylesheet" />
+    <link href="~/css/sidebar/sidebar.css" rel="stylesheet" />
+    @* <link href="~/css/spinner.css" rel="stylesheet" /> *@
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text text-primary">
+                <span class="image">
+                    <img src="~/lib/img/snr.jpg" />
+                </span>
+
+                <div class="text logo-text">
+                    <span class="text text-light">Kareila Management <br /> Corporation</span>
+                    <span class="text text-light">Picklist</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar mt-3">
+            <div class="menus">
+                    <li class="search-box">
+                        <a class="menu-link" href="@Url.Action("Index", "Home")">
+                            <i class="bi bi-house-door icon text-light"></i>
+                            <span class="text text-light">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="search-box">
+                        <a class="menu-link text-light" href="@Url.Action("AssetCategories", "Assets")">
+                            <i class="bi bi-card-checklist icon text-light"></i>
+                            <span class="text text-light">Picklist</span>
+                        </a>
+                    </li>
+
+                    <li class="search-box">
+                        <a class="menu-link text-light" href="@Url.Action("UpgradeHistory", "Assets")">
+                            <i class="bi bi-list icon text-light"></i>
+                            <span class="text text-light">Allocation</span>
+                        </a>
+                    </li>
+                    
+                    <li class="search-box">
+                        <a class="menu-link text-light" href="@Url.Action("UpgradeHistory", "Assets")">
+                            <i class="bi bi-box-seam icon text-light"></i>
+                            <span class="text text-light">SKU Setup</span>
+                        </a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <section class="home bg-white">
+        <div id="overlay" style="display: none; text-align: center; vertical-align: middle; height: 100%; font-family: sans-serif;">
+            <div class="spinner" id="loadingSpinner">
+                <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;"></div>
+            </div>
+        </div>
+
+
+        <!-- Content wrapper -->
+        <div class="content-wrapper">
+            @RenderBody()
+
+
+            <!-- Footer -->
+            <footer class="content-footer footer">
+                <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+                    <div class="mb-2 mb-md-0">
+                        ©
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        Picklist
+                    </div>
+                </div>
+            </footer>
+            <!-- / Footer -->
+            <div class="content-backdrop fade"></div>
+        </div>
+
+    </section>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @* <script src="~/lib/externalsrc/dataentry/js/jquery-ui.min.js"></script> *@
+	<script src="~/lib/externalsrc/sweetalert/sweetalert2@11.js"></script>
+
+    <script src="~/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
